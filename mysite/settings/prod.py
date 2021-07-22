@@ -20,10 +20,12 @@ AWS_LOCATION_MEDIA = 'media'
 
 AWS_DEFAULT_ACL = 'public-read'
 
+
 STATIC_DIRS = os.path.join(BASE_DIR, 'mysite', 'static')
 STATICFILES_DIRS = [
     STATIC_DIRS
 ]
+
 
 STATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION_STATIC)
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
