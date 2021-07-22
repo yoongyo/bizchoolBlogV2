@@ -1,7 +1,7 @@
 from .common import *
 
 DEBUG = False
-ALLOWED_HOSTS = ['admin.hintphone.com', '127.0.0.1']
+ALLOWED_HOSTS = ['bizchoollab.pythonanywhere.com', '127.0.0.1', 'bizchoollab.com']
 
 
 AWS_ACCESS_KEY_ID = get_secret('AWS_ACCESS_KEY_ID')
