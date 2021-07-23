@@ -3,3 +3,4 @@ django-rest-auth
 django-cors-headers
 django_storages
 boto3
+django-ckeditor-5
