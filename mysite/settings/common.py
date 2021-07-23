@@ -124,17 +124,13 @@ CKEDITOR_CONFIGS = {
         'height': 200,
         'width': '100%',
         'skin': 'moono',
-        'toolbar_Basic': [
-            ['Source', '-', 'Bold', 'Italic']
-        ],
+        'toolbar_Basic': [['Source', '-', 'Bold', 'Italic']],
         'toolbar_YourCustomToolbarConfig': [
             '/',
-            {'name': 'basicstyles',
-             'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
+            {'name': 'basicstyles', 'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
             {'name': 'paragraph',
              'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-',
-                       'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl']},
-
+                       'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl', 'horizontalLine']},
             {'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
             {'name': 'colors', 'items': ['TextColor', 'BGColor']},
             {'name': 'upload', 'items': ['Image', 'Youtube']},
