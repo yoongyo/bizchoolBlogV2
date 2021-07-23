@@ -1,11 +1,11 @@
 from django.contrib import admin
 from django import forms
 from .models import Post, Category
-from ckeditor.widgets import CKEditorWidget
+from django_ckeditor_5.fields import CKEditor5Widget
 
 
 class PostAdmin(admin.ModelAdmin):
-    content = forms.CharField(widget=CKEditorWidget)
+    content = forms.CharField(widget=CKEditor5Widget)
     class Meta:
         model = Post
 
